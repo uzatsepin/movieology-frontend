@@ -10,6 +10,9 @@ defineProps<{
       <h1 v-if="title" class="text-4xl font-weigth-900 font-bold text-white">
         {{ title }}
       </h1>
+      <h1 v-if="title" class="text-4xl font-weigth-900 font-bold text-white">
+        {{ title }}
+      </h1>
       <h1 v-else class="text-4xl font-weigth-900 font-bold text-white">
         <slot name="title" />
       </h1>
