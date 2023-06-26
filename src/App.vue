@@ -1,10 +1,9 @@
 <script setup lang="ts">
-import Sidebar from "./components/layout/Sidebar.vue";
-
+import Sidebar from './components/layout/Sidebar.vue'
 </script>
 
 <template>
-  <div class="flex h-screen flex-col">
+  <div class="flex h-screen flex-col bg-movie-black">
     <div class="flex flex-1 overflow-hidden">
       <sidebar />
       <main class="min-w-0 lg:flex flex-1">
@@ -13,4 +12,3 @@ import Sidebar from "./components/layout/Sidebar.vue";
     </div>
   </div>
 </template>
- 
